@@ -3,7 +3,6 @@ import "./App.css";
 
 import Menu from "./components/customer/Menu";
 import ResponsiveAppBar from "./components/ResponsiveAppBar";
-import Navbar from "./components/Navbar";
 import Cart from "./components/customer/Cart";
 
 const Layout = () => {
