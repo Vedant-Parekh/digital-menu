@@ -46,6 +46,7 @@ function ResponsiveAppBar() {
           <img
             src={modi}
             alt="modi"
+            style={{ width: 150, height: 120 }}
             sx={{ display: { xs: "none", md: "flex" }, mr: 1 }}
           />
           <Typography
