@@ -28,18 +28,6 @@ var categoryArray = [
                 true,
                 "https://picsum.photos/200" + "?random=" + Math.random(),
                 "Italian"),
-
-            new FoodItemData(
-                "Spegatti Bolognese",
-                200,
-                [
-                    { name: "Extra Cheese", cost: 50 },
-                    { name: "Extra Sauce", cost: 50 },
-                ],
-                true,
-                "https://picsum.photos/200" + "?random=" + Math.random(),
-                "Italian",
-            ),
             new FoodItemData(
                 "Margherrita Pizza with many toppings such as olives",
                 500,
@@ -51,6 +39,17 @@ var categoryArray = [
                 true,
                 "https://picsum.photos/200" + "?random=" + Math.random(),
                 "Italian"),
+            new FoodItemData(
+                "Speghetti Bolognese",
+                200,
+                [
+                    { name: "Extra Cheese", cost: 50 },
+                    { name: "Extra Sauce", cost: 50 },
+                ],
+                true,
+                "https://picsum.photos/200" + "?random=" + Math.random(),
+                "Italian",
+            ),
         ]
     ),
     new category(

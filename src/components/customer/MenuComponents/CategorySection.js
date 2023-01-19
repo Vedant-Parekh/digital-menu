@@ -9,7 +9,7 @@ import { BorderAllRounded } from '@mui/icons-material';
 
 export default function CategorySection(props) {
     return (
-        <Paper elevation={1} sx={{ m: 0.5, width: '99%', minHeight: '100%', overflow: 'auto', borderRadius: 5 }}>
+        <Paper elevation={1} sx={{ m: 0.5, width: '99%', minHeight: '100%', overflow: 'hidden', borderRadius: 5 }}>
             <Grid container component="main" sx={{ height: '10vh' }}>
                 <Grid
                     item
@@ -17,7 +17,6 @@ export default function CategorySection(props) {
                     md={12}
                     xs={12}
                     sx={{
-                        minWidth: 400,
                         backgroundImage: 'url(' + props.category.image + ')',
                         backgroundRepeat: 'no-repeat',
                         backgroundColor: (t) =>
